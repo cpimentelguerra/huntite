@@ -1,6 +1,8 @@
+Prueba
+
 <html>
 <head>
-<script src="/3Dmol-min.js">
+<script src="https://3Dmol.org/build/3Dmol-min.js">
 </script>
 </head>
 <div id="container-01" class="mol-container">
