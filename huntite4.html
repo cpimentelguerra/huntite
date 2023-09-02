@@ -1,0 +1,23 @@
+<script type="text/javascript" src="http://www.proteopedia.org/wiki/extensions/jsmol/JSmol.min.js"></script>
+
+<script type="text/javascript">
+var myJmol;
+var Info = {
+    width: 600,
+	height: 600,
+	debug: false,
+	color: "#eeffff",
+	serverURL: "http://www.proteopedia.org/wiki/extensions/jsmol/php/jsmol.php",
+	jarFile: "JmolApplet.jar",
+	jarPath: '..',
+	j2sPath: "http://www.proteopedia.org/wiki/extensions/jsmol/j2s",
+	use: "HTML5",
+	script: "script https://cpimentelguerra.com/huntite/huntite4.spt",
+	
+	disableJ2SLoadMonitor: true,
+	disableInitialConsole: true,
+	allowJavaScript: true,
+	console: "none",
+}
+myJmol = Jmol.getApplet("myJmol", Info);
+</script>
